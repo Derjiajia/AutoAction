@@ -27,7 +27,7 @@ jobs:
         password: ${{ secrets.EMAILPOP }}
         subject: 每日体温填报
         body: file://mydata.html
-        to: 1971938083@qq.com   #填写要收件邮箱名
+        to: 1971938083@qq.com,1255734498@qq.com,893268802@qq.com,1084966749@qq.com  #填写要收件邮箱名
         from: GitHub Actions
         content_type: text/html
         
