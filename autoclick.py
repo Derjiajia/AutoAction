@@ -8,7 +8,7 @@ a, b, c, d, e, f, z = '', '', '', '', '', '', ''
 timetamp = time.mktime(time.localtime())
 timetamp = int(timetamp)
 y=''
-url = "http://xscfw.hebust.edu.cn/survey/Login"
+url = "http://xscfw.hebust.edu.cn/survey/ajaxLogin"
 url2 = "http://xscfw.hebust.edu.cn/survey/index"
 url3 = f"http://xscfw.hebust.edu.cn/survey/surveySave?timestamp={timetamp}"
 
@@ -17,26 +17,6 @@ url3 = f"http://xscfw.hebust.edu.cn/survey/surveySave?timestamp={timetamp}"
 param = {
     "stuNum": "180503132",#此处输入学号
     "pwd": "Ab123456789#",#此处输入密码
-    "vcode": "",
-},
-param = {
-    "stuNum": "180503104",#此处输入学号
-    "pwd": "Lc2#0004286410",#此处输入密码
-    "vcode": "",
-},
-param = {
-    "stuNum": "180503115",#此处输入学号
-    "pwd": "Lc2#9909113179",#此处输入密码
-    "vcode": "",
-},
-param = {
-    "stuNum": "180503130",#此处输入学号
-    "pwd": "Lc2#0001187436",#此处输入密码
-    "vcode": "",
-},
-param = {
-    "stuNum": "180507113",#此处输入学号
-    "pwd": "Lc2#9907044417",#此处输入密码
     "vcode": "",
 }
 #
