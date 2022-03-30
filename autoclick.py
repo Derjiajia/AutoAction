@@ -8,7 +8,7 @@ a, b, c, d, e, f, z = '', '', '', '', '', '', ''
 timetamp = time.mktime(time.localtime())
 timetamp = int(timetamp)
 y=''
-url = "http://xscfw.hebust.edu.cn/survey/ajaxLogin"
+url = "http://xscfw.hebust.edu.cn/survey/Login"
 url2 = "http://xscfw.hebust.edu.cn/survey/index"
 url3 = f"http://xscfw.hebust.edu.cn/survey/surveySave?timestamp={timetamp}"
 
