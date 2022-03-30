@@ -15,6 +15,10 @@ jobs:
     - uses: actions/setup-python@v2
     - run:  pip install -r requirements.txt  #此处为安装依赖包
     - run: python autoclick.py  #此处为python代码的文件名
+    - run: python jw.py
+    - run: python hx
+    - run: python fu
+    - run: python su
    #发送邮件，可选
     - name: 'Send mail' 
       uses: dawidd6/action-send-mail@master
