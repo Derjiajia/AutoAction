@@ -19,6 +19,26 @@ param = {
     "pwd": "Ab123456789#",#此处输入密码
     "vcode": "",
 }
+{
+    "stuNum": "180503115",#此处输入学号
+    "pwd": "Lc2#9909113179",#此处输入密码
+    "vcode": "",
+}
+{
+    "stuNum": "180503130",#此处输入学号
+    "pwd": "Lc2#0001187436",#此处输入密码
+    "vcode": "",
+}
+{
+    "stuNum": "180507113",#此处输入学号
+    "pwd": "Lc2#9907044417",#此处输入密码
+    "vcode": "",
+}
+{
+    "stuNum": "180503104",#此处输入学号
+    "pwd": "Lc2#0001187436",#此处输入密码
+    "vcode": "",
+}
 #
 header = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 Edg/90.0.818.62"
