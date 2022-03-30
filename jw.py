@@ -15,26 +15,6 @@ url3 = f"http://xscfw.hebust.edu.cn/survey/surveySave?timestamp={timetamp}"
 
 # 账号信息
 param = {
-    "stuNum": "180503132",#此处输入学号
-    "pwd": "Ab123456789#",#此处输入密码
-    "vcode": "",
-}
-param = {
-    "stuNum": "180503104",#此处输入学号
-    "pwd": "Lc2#0004286410",#此处输入密码
-    "vcode": "",
-}
-param = {
-    "stuNum": "180503115",#此处输入学号
-    "pwd": "Lc2#9909113179",#此处输入密码
-    "vcode": "",
-}
-param = {
-    "stuNum": "180503130",#此处输入学号
-    "pwd": "Lc2#0001187436",#此处输入密码
-    "vcode": "",
-}
-param = {
     "stuNum": "180507113",#此处输入学号
     "pwd": "Lc2#9907044417",#此处输入密码
     "vcode": "",
