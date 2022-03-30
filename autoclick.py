@@ -47,7 +47,7 @@ header = {
 
 try:
     response = r.post(url=url, params=param, headers=header)
-    sleep(30)
+    sleep(20)
     cookiesJAR = response.cookies  # 获取cookies
     cookies = cookiesJAR.get_dict()  # 把cookies写成字典形式
     res = r.get(url=url2, headers=header, cookies=cookies, params=param)
@@ -64,10 +64,10 @@ try:
     html = etree.HTML(res.text)
     content = html.xpath('/html/body/ul/li[1]/div/span/text()')
     y=content[0]
-    c = "获取填报表单成功，即登录成功"
+    c = "获取填报表单成功，登录成功"
 
 except:
-    c = "获取填报表单失败，即登录失败"
+    c = "获取填报表单失败，登录失败"
 
 
 
